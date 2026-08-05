@@ -1,0 +1,14 @@
+<svg width="240" height="240" viewBox="0 0 24 24" shape-rendering="crispEdges" xmlns="http://www.w3.org/2000/svg">
+  <!-- Placeholder pixel-art avatar. Replace with a generated version once a source portrait is provided. -->
+  <rect width="24" height="24" fill="#0F2027"/>
+  <g fill="#2C5364">
+    <rect x="7" y="4" width="10" height="10"/>
+    <rect x="6" y="14" width="12" height="6"/>
+  </g>
+  <g fill="#6C7DFF">
+    <rect x="9" y="7" width="2" height="2"/>
+    <rect x="13" y="7" width="2" height="2"/>
+    <rect x="9" y="11" width="6" height="1"/>
+  </g>
+  <text x="12" y="23" font-family="Segoe UI, monospace" font-size="2" fill="#B8C4D9" text-anchor="middle">placeholder</text>
+</svg>
