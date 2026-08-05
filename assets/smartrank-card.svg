@@ -21,7 +21,6 @@
   <text x="18" y="74" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#a78bfa" letter-spacing="0.5">Rule-Based College Predictor</text>
   
   <!-- Project Description details -->
-  <!-- We wrap long text or split it -->
   <g transform="translate(18, 92)" font-family="'Segoe UI', Roboto, sans-serif" font-size="10" fill="#94a3b8">
     <text x="0" y="0">Click repository to view the full codebase,</text>
     <text x="0" y="14">setup instructions, and documentation.</text>
@@ -30,28 +29,28 @@
   <!-- Tech Stack Section -->
   
     <g transform="translate(18, 135)">
-      <rect width="78" height="22" rx="4" fill="#1e1b4b" stroke="rgba(255,255,255,0.04)" />
-      <text x="39" y="15" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="bold" fill="#a78bfa" text-anchor="middle">Python</text>
+      <rect width="50" height="22" rx="4" fill="#1e1b4b" stroke="rgba(255,255,255,0.04)" />
+      <text x="25.0" y="15" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="bold" fill="#a78bfa" text-anchor="middle">Python</text>
     </g>
-    <g transform="translate(103, 135)">
-      <rect width="78" height="22" rx="4" fill="#06202c" stroke="rgba(255,255,255,0.04)" />
-      <text x="39" y="15" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="bold" fill="#22d3ee" text-anchor="middle">Flask</text>
+    <g transform="translate(74, 135)">
+      <rect width="44" height="22" rx="4" fill="#06202c" stroke="rgba(255,255,255,0.04)" />
+      <text x="22.0" y="15" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="bold" fill="#22d3ee" text-anchor="middle">Flask</text>
     </g>
-    <g transform="translate(188, 135)">
-      <rect width="78" height="22" rx="4" fill="#1e1b4b" stroke="rgba(255,255,255,0.04)" />
-      <text x="39" y="15" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="bold" fill="#a78bfa" text-anchor="middle">Rule Engine</text>
+    <g transform="translate(124, 135)">
+      <rect width="80" height="22" rx="4" fill="#1e1b4b" stroke="rgba(255,255,255,0.04)" />
+      <text x="40.0" y="15" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="bold" fill="#a78bfa" text-anchor="middle">Rule Engine</text>
     </g>
-    <g transform="translate(273, 135)">
-      <rect width="78" height="22" rx="4" fill="#06202c" stroke="rgba(255,255,255,0.04)" />
-      <text x="39" y="15" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="bold" fill="#22d3ee" text-anchor="middle">HTML/CSS</text>
+    <g transform="translate(210, 135)">
+      <rect width="62" height="22" rx="4" fill="#06202c" stroke="rgba(255,255,255,0.04)" />
+      <text x="31.0" y="15" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="bold" fill="#22d3ee" text-anchor="middle">HTML/CSS</text>
     </g>
   
-  <!-- Divider -->
-  <line x1="265" y1="25" x2="265" y2="155" stroke="rgba(255,255,255,0.06)" stroke-width="1" stroke-dasharray="4 4" />
+  <!-- Divider shifted to 275 -->
+  <line x1="275" y1="25" x2="275" y2="155" stroke="rgba(255,255,255,0.06)" stroke-width="1" stroke-dasharray="4 4" />
   
-  <!-- Dynamic Right-side Animation Area (Center 340,90) -->
+  <!-- Dynamic Right-side Animation Area (Center shifted to 348) -->
   
-  <g transform="translate(340, 85)">
+  <g transform="translate(348, 85)">
     <circle cx="0" cy="0" r="32" fill="none" stroke="#1e293b" stroke-width="6" />
     <circle cx="0" cy="0" r="32" fill="none" stroke="url(#cardGrad)" stroke-width="6" />
     <circle cx="0" cy="0" r="32" fill="none" stroke="#22d3ee" stroke-width="6" stroke-linecap="round" stroke-dasharray="201" stroke-dashoffset="201">
