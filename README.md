@@ -111,11 +111,7 @@ I enjoy solving real-world problems through technology and continuously sharpeni
 <div align="center">
   <img src="./assets/skills-dashboard.svg" width="840" alt="Tech Stack and Skills Dashboard" />
   
-  <br/><br/>
-  
-  <a href="https://jaithra2104.github.io/Jaithra2104/interactive-skills/" target="_blank">
-    <img src="https://img.shields.io/badge/%F0%9F%8E%AE%20Play%20with%20Interactive%20Physics%20Sandbox-1E1B4B?style=for-the-badge&logo=matterdotjs&logoColor=22D3EE" alt="Interactive Physics Sandbox" />
-  </a>
+
 </div>
 
 <br/>
@@ -125,10 +121,10 @@ I enjoy solving real-world problems through technology and continuously sharpeni
   <table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none; background: transparent; margin-bottom: 10px;">
     <tr style="background: transparent; border: none;">
       <td align="center" width="55%" style="border: none; background: transparent; padding: 5px;">
-        <img src="https://github-readme-stats.vercel.app/api?username=Jaithra2104&show_icons=true&count_private=true&bg_color=111722&title_color=a78bfa&text_color=94a3b8&icon_color=22d3ee&border_color=30363d&border_radius=10" width="100%" alt="Jaithra's GitHub Stats" />
+        <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Jaithra2104&show_icons=true&count_private=true&bg_color=111722&title_color=a78bfa&text_color=94a3b8&icon_color=22d3ee&border_color=30363d&border_radius=10" width="100%" alt="Jaithra's GitHub Stats" />
       </td>
       <td align="center" width="45%" style="border: none; background: transparent; padding: 5px;">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jaithra2104&layout=compact&bg_color=111722&title_color=a78bfa&text_color=94a3b8&icon_color=22d3ee&border_color=30363d&border_radius=10" width="100%" alt="Jaithra's Top Languages" />
+        <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Jaithra2104&layout=compact&bg_color=111722&title_color=a78bfa&text_color=94a3b8&icon_color=22d3ee&border_color=30363d&border_radius=10" width="100%" alt="Jaithra's Top Languages" />
       </td>
     </tr>
   </table>
