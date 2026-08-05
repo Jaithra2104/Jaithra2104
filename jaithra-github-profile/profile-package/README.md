@@ -142,7 +142,7 @@ I'm **Jaithra Addepalli**, a Computer Science Engineering student from India. I 
 ### Trophies
 
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=Jaithra2104&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=8" width="90%"/>
+<img src="https://github-trophies.devomb.com/?username=Jaithra2104&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=8" width="90%"/>
 </div>
 
 <br/>
