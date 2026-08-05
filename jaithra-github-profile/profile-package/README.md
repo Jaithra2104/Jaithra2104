@@ -192,14 +192,14 @@ I'm **Jaithra Addepalli**, a Computer Science Engineering student from India. I 
 
 <div align="center">
 
-<a href="https://linkedin.com/in/jaithra-addepalli-510292334">
-  <img src="https://img.shields.io/badge/LinkedIn-111722?style=for-the-badge&logo=linkedin&logoColor=22D3EE&labelColor=111722" />
-</a>
-<a href="https://instagram.com/jaithra_mca_">
-  <img src="https://img.shields.io/badge/Instagram-111722?style=for-the-badge&logo=instagram&logoColor=A78BFA&labelColor=111722" />
-</a>
-<a href="mailto:jaithraaddepalli17@gmail.com">
-  <img src="https://img.shields.io/badge/Email-111722?style=for-the-badge&logo=gmail&logoColor=22D3EE&labelColor=111722" />
+<a href="https://linkedin.com/in/jaithra-addepalli-510292334" target="_blank">
+  <img src="./assets/linkedin-badge.svg" width="170" alt="LinkedIn" />
+</a>&nbsp;&nbsp;
+<a href="https://instagram.com/jaithra_mca_" target="_blank">
+  <img src="./assets/instagram-badge.svg" width="170" alt="Instagram" />
+</a>&nbsp;&nbsp;
+<a href="mailto:jaithraaddepalli17@gmail.com" target="_blank">
+  <img src="./assets/email-badge.svg" width="170" alt="Email" />
 </a>
 
 <br/><br/>
@@ -207,7 +207,7 @@ I'm **Jaithra Addepalli**, a Computer Science Engineering student from India. I 
 ![Profile Views](https://komarev.com/ghpvc/?username=Jaithra2104&label=Profile%20Views&color=a78bfa&style=flat-square)
 ![Followers](https://img.shields.io/github/followers/Jaithra2104?label=Followers&style=flat-square&color=22d3ee&labelColor=111722)
 ![Stars](https://img.shields.io/github/stars/Jaithra2104?label=Stars&style=flat-square&color=a78bfa&labelColor=111722)
-![Repos](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/Jaithra2104&label=Repositories&query=%24.public_repos&color=22d3ee&style=flat-square&labelColor=111722)
+![Repos](https://img.shields.io/badge/Repositories-19-22d3ee?style=flat-square&labelColor=111722)
 
 </div>
 
