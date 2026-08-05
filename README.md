@@ -150,29 +150,12 @@ I'm **Jaithra Addepalli**, a Computer Science Engineering student from India. I 
 ### Contribution Snake
 
 <div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jaithra2104/Jaithra2104/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Jaithra2104/Jaithra2104/output/github-contribution-grid-snake.svg" />
-  <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/Jaithra2104/Jaithra2104/output/github-contribution-grid-snake.svg" width="90%" />
-</picture>
-
-<br/><sub>Generated automatically by the workflow in <code>.github/workflows/snake.yml</code> — see setup instructions below.</sub>
-
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jaithra2104/Jaithra2104/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Jaithra2104/Jaithra2104/output/github-contribution-grid-snake.svg" />
+    <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/Jaithra2104/Jaithra2104/output/github-contribution-grid-snake.svg" width="100%" />
+  </picture>
 </div>
-
-<br/>
-
-## Snake Animation Setup
-
-1. This repository must be your **profile repository** (a repo named exactly `Jaithra2104`, matching your username).
-2. Commit the included `.github/workflows/snake.yml` to the `main` branch.
-3. In the repo settings, confirm **Settings → Actions → General → Workflow permissions** is set to **Read and write permissions**.
-4. Run the workflow once manually from the **Actions** tab (`Generate Contribution Snake` → **Run workflow**), or wait for the daily scheduled run.
-5. The action publishes the generated SVGs to a new `output` branch. The README above already links to:
-   - `https://raw.githubusercontent.com/Jaithra2104/Jaithra2104/output/github-contribution-grid-snake.svg`
-   - `https://raw.githubusercontent.com/Jaithra2104/Jaithra2104/output/github-contribution-grid-snake-dark.svg`
-6. No further changes are needed — the animation updates automatically every day.
 
 <br/>
 
