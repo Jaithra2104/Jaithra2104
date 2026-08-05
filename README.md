@@ -36,10 +36,10 @@
 <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none; background: transparent;">
 <tr style="background: transparent; border: none;">
 <td valign="top" style="border: none; background: transparent; padding: 5px;">
-  <img src="./profile-ascii.svg" width="370" alt="Jaithra Addepalli — ASCII portrait" />
+  <img src="./profile-ascii.svg" height="300" alt="Jaithra Addepalli — ASCII portrait" />
 </td>
 <td valign="top" style="border: none; background: transparent; padding: 5px;">
-  <img src="./wordmark.svg" width="490" alt="JAITHRA — 3D ASCII wordmark" />
+  <img src="./wordmark.svg" height="300" alt="JAITHRA — 3D ASCII wordmark" />
 </td>
 </tr>
 </table>
