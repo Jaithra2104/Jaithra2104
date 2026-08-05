@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 180" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cardGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#111722"/>
+      <stop offset="1" stop-color="#0d1322"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer Card Frame -->
+  <rect width="420" height="180" rx="10" fill="url(#cardGrad)" stroke="#30363d" stroke-width="1.5" />
+  
+  <!-- Terminal Window Controls -->
+  <g transform="translate(15, 18)">
+    <circle cx="0" cy="0" r="4.5" fill="#ff5f56" />
+    <circle cx="12" cy="0" r="4.5" fill="#ffbd2e" />
+    <circle cx="24" cy="0" r="4.5" fill="#27c93f" />
+  </g>
+  
+  <!-- Project Metadata -->
+  <text x="18" y="52" font-family="'JetBrains Mono', Consolas, monospace" font-size="16" font-weight="bold" fill="#f1f5f9">EV Charging Demand</text>
+  <text x="18" y="74" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#a78bfa" letter-spacing="0.5">Machine Learning Forecast Model</text>
+  
+  <!-- Project Description details -->
+  <!-- We wrap long text or split it -->
+  <g transform="translate(18, 92)" font-family="'Segoe UI', Roboto, sans-serif" font-size="10" fill="#94a3b8">
+    <text x="0" y="0">Click repository to view the full codebase,</text>
+    <text x="0" y="14">setup instructions, and documentation.</text>
+  </g>
+  
+  <!-- Tech Stack Section -->
+  
+    <g transform="translate(18, 135)">
+      <rect width="78" height="22" rx="4" fill="#1e1b4b" stroke="rgba(255,255,255,0.04)" />
+      <text x="39" y="15" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="bold" fill="#a78bfa" text-anchor="middle">Python</text>
+    </g>
+    <g transform="translate(103, 135)">
+      <rect width="78" height="22" rx="4" fill="#06202c" stroke="rgba(255,255,255,0.04)" />
+      <text x="39" y="15" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="bold" fill="#22d3ee" text-anchor="middle">Scikit-Learn</text>
+    </g>
+    <g transform="translate(188, 135)">
+      <rect width="78" height="22" rx="4" fill="#1e1b4b" stroke="rgba(255,255,255,0.04)" />
+      <text x="39" y="15" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="bold" fill="#a78bfa" text-anchor="middle">Pandas</text>
+    </g>
+    <g transform="translate(273, 135)">
+      <rect width="78" height="22" rx="4" fill="#06202c" stroke="rgba(255,255,255,0.04)" />
+      <text x="39" y="15" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="bold" fill="#22d3ee" text-anchor="middle">NumPy</text>
+    </g>
+  
+  <!-- Divider -->
+  <line x1="265" y1="25" x2="265" y2="155" stroke="rgba(255,255,255,0.06)" stroke-width="1" stroke-dasharray="4 4" />
+  
+  <!-- Dynamic Right-side Animation Area (Center 340,90) -->
+  
+  <g transform="translate(285, 35)">
+    <!-- Grid -->
+    <rect width="100" height="90" fill="#080c14" rx="4" stroke="rgba(255,255,255,0.03)" />
+    <line x1="0" y1="30" x2="100" y2="30" stroke="rgba(255,255,255,0.04)" />
+    <line x1="0" y1="60" x2="100" y2="60" stroke="rgba(255,255,255,0.04)" />
+    <line x1="33" y1="0" x2="33" y2="90" stroke="rgba(255,255,255,0.04)" />
+    <line x1="66" y1="0" x2="66" y2="90" stroke="rgba(255,255,255,0.04)" />
+    
+    <!-- Chart path -->
+    <path d="M 0 75 Q 25 15 50 65 T 100 25" fill="none" stroke="#1e293b" stroke-width="1.5" />
+    <path d="M 0 75 Q 25 15 50 65 T 100 25" fill="none" stroke="#22d3ee" stroke-width="2" stroke-dasharray="150" stroke-dashoffset="150">
+      <animate attributeName="stroke-dashoffset" values="150;0;0;150" dur="4s" repeatCount="indefinite" />
+    </path>
+    
+    <!-- Scan Line -->
+    <line x1="0" y1="0" x2="0" y2="90" stroke="#a78bfa" stroke-width="1.5" opacity="0.8">
+      <animate attributeName="x1" values="0;100;0" dur="4s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="0;100;0" dur="4s" repeatCount="indefinite" />
+    </line>
+    
+    <!-- Target Dot -->
+    <circle cx="50" cy="65" r="3" fill="#ff5f56">
+      <animate attributeName="cx" values="0;100;0" dur="4s" keyTimes="0;0.5;1" repeatCount="indefinite" />
+      <animate attributeName="cy" values="75;25;75" dur="4s" keyTimes="0;0.5;1" repeatCount="indefinite" />
+    </circle>
+    <text x="50" y="105" font-family="'JetBrains Mono', monospace" font-size="8" fill="#64748b" text-anchor="middle">demand forecast</text>
+  </g>
+</svg>

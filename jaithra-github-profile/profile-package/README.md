@@ -65,115 +65,43 @@ I enjoy solving real-world problems through technology and continuously sharpeni
 
 ## Featured Projects
 
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-
-### Friday
-**AI Personal Voice Assistant**
-
-An intelligent voice assistant designed to handle everyday tasks through natural language commands.
-
-**Tech Stack:** Python · Speech Recognition · NLP
-
-**Features**
-- Voice-command task automation
-- Natural language understanding
-- Extensible command modules
-
-[![Repo](https://img.shields.io/badge/Repository-Add_link-181717?style=flat-square&logo=github)](https://github.com/Jaithra2104)
-
-</td>
-<td width="50%" valign="top">
-
-### Taskora
-**Modern Task Management Platform**
-
-A clean, modern platform for organizing tasks, tracking progress, and boosting productivity.
-
-**Tech Stack:** React · Node.js · MongoDB / Firebase
-
-**Features**
-- Task creation, tracking & prioritization
-- Responsive, modern UI
-- Real-time updates
-
-[![Repo](https://img.shields.io/badge/Repository-Add_link-181717?style=flat-square&logo=github)](https://github.com/Jaithra2104)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### SmartRank
-**Rule-Based College Prediction System**
-
-A rule-based system that predicts suitable college options based on student inputs and cutoffs.
-
-**Tech Stack:** Python · Rule-Based Logic · Flask
-
-**Features**
-- Rank & preference based prediction
-- Configurable rule engine
-- Simple, intuitive interface
-
-[![Repo](https://img.shields.io/badge/Repository-Add_link-181717?style=flat-square&logo=github)](https://github.com/Jaithra2104)
-
-</td>
-<td width="50%" valign="top">
-
-### EV Charging Demand Prediction
-**Machine Learning Project**
-
-A machine learning model that forecasts electric vehicle charging demand from historical data.
-
-**Tech Stack:** Python · Scikit-Learn · Pandas · NumPy
-
-**Features**
-- Demand forecasting model
-- Data preprocessing pipeline
-- Visualized trend analysis
-
-[![Repo](https://img.shields.io/badge/Repository-Add_link-181717?style=flat-square&logo=github)](https://github.com/Jaithra2104)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### Salary Prediction
-**Machine Learning Web Application**
-
-A web application that predicts salary estimates using a trained regression model.
-
-**Tech Stack:** Python · Scikit-Learn · Flask · HTML/CSS
-
-**Features**
-- Interactive prediction form
-- Trained regression model
-- Deployed web interface
-
-[![Repo](https://img.shields.io/badge/Repository-Add_link-181717?style=flat-square&logo=github)](https://github.com/Jaithra2104)
-
-</td>
-<td width="50%" valign="top">
-
-### Freelancing Portfolio
-**Premium Personal Portfolio**
-
-A polished personal portfolio website showcasing projects, skills, and services.
-
-**Tech Stack:** React · Tailwind CSS
-
-**Features**
-- Modern, minimal design
-- Fully responsive layout
-- Project & skills showcase
-
-[![Repo](https://img.shields.io/badge/Repository-Add_link-181717?style=flat-square&logo=github)](https://github.com/Jaithra2104)
-
-</td>
-</tr>
+<table width="100%" border="0" cellpadding="5" cellspacing="5" style="border-collapse: collapse; border: none; background: transparent;">
+  <tr style="background: transparent; border: none;">
+    <td width="50%" style="border: none; background: transparent; padding: 5px;">
+      <a href="https://github.com/Jaithra2104" target="_blank">
+        <img src="./assets/friday-card.svg" width="100%" alt="Friday AI Personal Voice Assistant" />
+      </a>
+    </td>
+    <td width="50%" style="border: none; background: transparent; padding: 5px;">
+      <a href="https://github.com/Jaithra2104" target="_blank">
+        <img src="./assets/taskora-card.svg" width="100%" alt="Taskora Modern Task Management Platform" />
+      </a>
+    </td>
+  </tr>
+  <tr style="background: transparent; border: none;">
+    <td width="50%" style="border: none; background: transparent; padding: 5px;">
+      <a href="https://github.com/Jaithra2104" target="_blank">
+        <img src="./assets/smartrank-card.svg" width="100%" alt="SmartRank Rule-Based College Prediction System" />
+      </a>
+    </td>
+    <td width="50%" style="border: none; background: transparent; padding: 5px;">
+      <a href="https://github.com/Jaithra2104" target="_blank">
+        <img src="./assets/ev-charging-card.svg" width="100%" alt="EV Charging Demand Prediction" />
+      </a>
+    </td>
+  </tr>
+  <tr style="background: transparent; border: none;">
+    <td width="50%" style="border: none; background: transparent; padding: 5px;">
+      <a href="https://github.com/Jaithra2104" target="_blank">
+        <img src="./assets/salary-prediction-card.svg" width="100%" alt="Salary Prediction Web Application" />
+      </a>
+    </td>
+    <td width="50%" style="border: none; background: transparent; padding: 5px;">
+      <a href="https://github.com/Jaithra2104" target="_blank">
+        <img src="./assets/portfolio-card.svg" width="100%" alt="Freelancing Portfolio Website" />
+      </a>
+    </td>
+  </tr>
 </table>
 
 <br/>

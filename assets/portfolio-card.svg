@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 180" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cardGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#111722"/>
+      <stop offset="1" stop-color="#0d1322"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer Card Frame -->
+  <rect width="420" height="180" rx="10" fill="url(#cardGrad)" stroke="#30363d" stroke-width="1.5" />
+  
+  <!-- Terminal Window Controls -->
+  <g transform="translate(15, 18)">
+    <circle cx="0" cy="0" r="4.5" fill="#ff5f56" />
+    <circle cx="12" cy="0" r="4.5" fill="#ffbd2e" />
+    <circle cx="24" cy="0" r="4.5" fill="#27c93f" />
+  </g>
+  
+  <!-- Project Metadata -->
+  <text x="18" y="52" font-family="'JetBrains Mono', Consolas, monospace" font-size="16" font-weight="bold" fill="#f1f5f9">Freelancing Portfolio</text>
+  <text x="18" y="74" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#a78bfa" letter-spacing="0.5">Premium Portfolio Website</text>
+  
+  <!-- Project Description details -->
+  <!-- We wrap long text or split it -->
+  <g transform="translate(18, 92)" font-family="'Segoe UI', Roboto, sans-serif" font-size="10" fill="#94a3b8">
+    <text x="0" y="0">Click repository to view the full codebase,</text>
+    <text x="0" y="14">setup instructions, and documentation.</text>
+  </g>
+  
+  <!-- Tech Stack Section -->
+  
+    <g transform="translate(18, 135)">
+      <rect width="78" height="22" rx="4" fill="#1e1b4b" stroke="rgba(255,255,255,0.04)" />
+      <text x="39" y="15" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="bold" fill="#a78bfa" text-anchor="middle">React</text>
+    </g>
+    <g transform="translate(103, 135)">
+      <rect width="78" height="22" rx="4" fill="#06202c" stroke="rgba(255,255,255,0.04)" />
+      <text x="39" y="15" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="bold" fill="#22d3ee" text-anchor="middle">Tailwind CSS</text>
+    </g>
+    <g transform="translate(188, 135)">
+      <rect width="78" height="22" rx="4" fill="#1e1b4b" stroke="rgba(255,255,255,0.04)" />
+      <text x="39" y="15" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="bold" fill="#a78bfa" text-anchor="middle">Vite</text>
+    </g>
+    <g transform="translate(273, 135)">
+      <rect width="78" height="22" rx="4" fill="#06202c" stroke="rgba(255,255,255,0.04)" />
+      <text x="39" y="15" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="bold" fill="#22d3ee" text-anchor="middle">Framer Motion</text>
+    </g>
+  
+  <!-- Divider -->
+  <line x1="265" y1="25" x2="265" y2="155" stroke="rgba(255,255,255,0.06)" stroke-width="1" stroke-dasharray="4 4" />
+  
+  <!-- Dynamic Right-side Animation Area (Center 340,90) -->
+  
+  <g transform="translate(335, 75)">
+    <!-- Rotating React logo -->
+    <g>
+      <ellipse rx="30" ry="11" fill="none" stroke="#22d3ee" stroke-width="1.5" opacity="0.7" />
+      <ellipse rx="30" ry="11" fill="none" stroke="#22d3ee" stroke-width="1.5" transform="rotate(60)" opacity="0.7" />
+      <ellipse rx="30" ry="11" fill="none" stroke="#22d3ee" stroke-width="1.5" transform="rotate(120)" opacity="0.7" />
+      <circle r="6" fill="#22d3ee" />
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="10s" repeatCount="indefinite" />
+    </g>
+    <text x="0" y="65" font-family="'JetBrains Mono', Consolas, monospace" font-size="9" fill="#64748b" text-anchor="middle">react UI engine</text>
+  </g>
+</svg>
