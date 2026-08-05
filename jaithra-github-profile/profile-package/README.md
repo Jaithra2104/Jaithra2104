@@ -131,7 +131,7 @@ I enjoy solving real-world problems through technology and continuously sharpeni
   
   <br/>
   
-  <img src="https://streak-stats.demolab.com/?user=Jaithra2104&theme=dark&background=111722&border=30363d&ring=22d3ee&fire=22d3ee&currStreakNum=f1f5f9&sideNums=94a3b8&sideLabels=94a3b8&dates=a78bfa&cache_bust=1" width="100%" alt="Jaithra's GitHub Streak" />
+  <img src="https://streak-stats.vercel.app/?user=Jaithra2104&theme=dark&background=111722&border=30363d&ring=22d3ee&fire=22d3ee&currStreakNum=f1f5f9&sideNums=94a3b8&sideLabels=94a3b8&dates=a78bfa&cache_bust=2" width="100%" alt="Jaithra's GitHub Streak" />
   
   <br/><br/>
   
