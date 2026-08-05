@@ -48,21 +48,20 @@
 
 <br/>
 
-## About Me
+## 👤 About Me
 
-I'm **Jaithra Addepalli**, a Computer Science Engineering student from India, passionate about building software that solves real problems. My interests span:
+> 🚀 **Engineering high-quality software solutions that address real-world challenges through code.**
 
-- **Software Engineering** — writing clean, maintainable, production-grade code
-- **Artificial Intelligence & Machine Learning** — building models that learn from data
-- **Full Stack Development** — designing and shipping complete web applications
-- **Data Analytics** — turning raw data into actionable insight
+I'm **Jaithra Addepalli**, a Computer Science Engineering student from India. I specialize in building robust backend systems, training machine learning models, and crafting modern web interfaces. I am highly motivated by clean code, scalable architecture, and continuous learning.
 
-**Currently learning:** Generative AI · AWS · Docker · System Design
+### 💡 Core Focus Areas
 
-I enjoy solving real-world problems through technology and continuously sharpening my technical and problem-solving skills.
+*   💻 **Software Engineering** — *Writing clean, modular, and production-grade code that scales.*
+*   🤖 **Artificial Intelligence & Machine Learning** — *Building predictive models, feature pipelines, and data-driven engines.*
+*   🌐 **Full Stack Development** — *Designing and shipping end-to-end web applications with modern architectures.*
+*   📊 **Data Analytics** — *Processing raw datasets to uncover hidden trends and actionable insights.*
 
 <br/>
-
 ## Featured Projects
 
 <table width="100%" border="0" cellpadding="5" cellspacing="5" style="border-collapse: collapse; border: none; background: transparent;">
@@ -177,18 +176,16 @@ I enjoy solving real-world problems through technology and continuously sharpeni
 
 <br/>
 
-## Learning Roadmap
+## 🎯 Learning Roadmap
 
-```
-Current Focus
-├── Generative AI        → building & fine-tuning LLM-powered applications
-├── AWS                  → cloud fundamentals & deployment
-├── Docker               → containerization for reproducible environments
-└── System Design        → scalable architecture fundamentals
-```
+| Focus Area | Technologies | Status |
+| :--- | :--- | :--- |
+| 🧠 **Generative AI** | LLMs · Prompt Engineering · RAG | Learning & Experimenting |
+| ☁️ **Cloud Infrastructure** | AWS Services · Serverless · IAM | Certification Prep |
+| 🐳 **DevOps & Containers** | Docker · CI/CD Pipelines | Containerizing Side Projects |
+| 🏗️ **System Design** | Microservices · Caching · Scalability | Studying Architectures |
 
 <br/>
-
 ## Open Source Goals
 
 - Contribute meaningful pull requests to active open-source projects
