@@ -139,6 +139,17 @@ I'm **Jaithra Addepalli**, a Computer Science Engineering student from India. I 
 
 <br/>
 
+### GitHub Achievements
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/drknzz/GitHub-Achievements/main/Media/Badges/Pull-Shark/PNG/PullShark.png" width="90" alt="Pull Shark Badge" />&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/drknzz/GitHub-Achievements/main/Media/Badges/YOLO/PNG/YOLO_Badge.png" width="90" alt="YOLO Badge" />&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/drknzz/GitHub-Achievements/main/Media/Badges/Quick-Draw/PNG/Skin-Tones/QuickDraw_SkinTone1.png" width="90" alt="Quick Draw Badge" />&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/drknzz/GitHub-Achievements/main/Media/Badges/Pair-Extraordinaire/PNG/PairExtraordinaire.png" width="90" alt="Pair Extraordinaire Badge" />
+</div>
+
+<br/>
+
 ### Trophies
 
 <div align="center">
