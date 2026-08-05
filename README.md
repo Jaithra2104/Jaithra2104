@@ -67,38 +67,38 @@ I enjoy solving real-world problems through technology and continuously sharpeni
 
 <table width="100%" border="0" cellpadding="5" cellspacing="5" style="border-collapse: collapse; border: none; background: transparent;">
   <tr style="background: transparent; border: none;">
-    <td width="50%" style="border: none; background: transparent; padding: 5px;">
+    <td align="center" width="50%" style="border: none; background: transparent; padding: 5px;">
       <a href="https://github.com/Jaithra2104" target="_blank">
-        <img src="./assets/friday-card.svg" width="100%" alt="Friday AI Personal Voice Assistant" />
+        <img src="./assets/friday-card.svg" width="390" alt="Friday AI Personal Voice Assistant" />
       </a>
     </td>
-    <td width="50%" style="border: none; background: transparent; padding: 5px;">
+    <td align="center" width="50%" style="border: none; background: transparent; padding: 5px;">
       <a href="https://github.com/Jaithra2104" target="_blank">
-        <img src="./assets/taskora-card.svg" width="100%" alt="Taskora Modern Task Management Platform" />
-      </a>
-    </td>
-  </tr>
-  <tr style="background: transparent; border: none;">
-    <td width="50%" style="border: none; background: transparent; padding: 5px;">
-      <a href="https://github.com/Jaithra2104" target="_blank">
-        <img src="./assets/smartrank-card.svg" width="100%" alt="SmartRank Rule-Based College Prediction System" />
-      </a>
-    </td>
-    <td width="50%" style="border: none; background: transparent; padding: 5px;">
-      <a href="https://github.com/Jaithra2104" target="_blank">
-        <img src="./assets/ev-charging-card.svg" width="100%" alt="EV Charging Demand Prediction" />
+        <img src="./assets/taskora-card.svg" width="390" alt="Taskora Modern Task Management Platform" />
       </a>
     </td>
   </tr>
   <tr style="background: transparent; border: none;">
-    <td width="50%" style="border: none; background: transparent; padding: 5px;">
+    <td align="center" width="50%" style="border: none; background: transparent; padding: 5px;">
       <a href="https://github.com/Jaithra2104" target="_blank">
-        <img src="./assets/salary-prediction-card.svg" width="100%" alt="Salary Prediction Web Application" />
+        <img src="./assets/smartrank-card.svg" width="390" alt="SmartRank Rule-Based College Prediction System" />
       </a>
     </td>
-    <td width="50%" style="border: none; background: transparent; padding: 5px;">
+    <td align="center" width="50%" style="border: none; background: transparent; padding: 5px;">
       <a href="https://github.com/Jaithra2104" target="_blank">
-        <img src="./assets/portfolio-card.svg" width="100%" alt="Freelancing Portfolio Website" />
+        <img src="./assets/ev-charging-card.svg" width="390" alt="EV Charging Demand Prediction" />
+      </a>
+    </td>
+  </tr>
+  <tr style="background: transparent; border: none;">
+    <td align="center" width="50%" style="border: none; background: transparent; padding: 5px;">
+      <a href="https://github.com/Jaithra2104" target="_blank">
+        <img src="./assets/salary-prediction-card.svg" width="390" alt="Salary Prediction Web Application" />
+      </a>
+    </td>
+    <td align="center" width="50%" style="border: none; background: transparent; padding: 5px;">
+      <a href="https://github.com/Jaithra2104" target="_blank">
+        <img src="./assets/portfolio-card.svg" width="390" alt="Freelancing Portfolio Website" />
       </a>
     </td>
   </tr>
