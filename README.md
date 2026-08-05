@@ -27,10 +27,19 @@
 
 <br/>
 
-## 🧑‍💻 Profile Avatar
+## 🧑‍💻 Profile Avatar & Identity
 
 <div align="center">
-  <img src="./profile-avatar.gif" width="180" alt="Jaithra Addepalli Decoding Avatar" style="border-radius: 12px; border: 2px solid #7c3aed; box-shadow: 0 4px 20px rgba(124, 58, 237, 0.25);" />
+  <table border="0" cellpadding="10" cellspacing="0" style="border-collapse: collapse; border: none; background: transparent;">
+    <tr style="background: transparent; border: none;">
+      <td align="center" valign="middle" style="border: none; background: transparent; padding: 10px;">
+        <img src="./profile-ascii-animated.gif" width="220" alt="Jaithra Addepalli Animated ASCII Portrait" style="border-radius: 12px; border: 2px solid #7c3aed; box-shadow: 0 4px 20px rgba(124,58,237,0.15);" />
+      </td>
+      <td align="center" valign="middle" style="border: none; background: transparent; padding: 10px;">
+        <img src="./name-ascii-animated.gif" width="300" alt="JAITHRA Animated ASCII Banner" style="border-radius: 12px; border: 2px solid #06b6d4; box-shadow: 0 4px 20px rgba(6,182,212,0.15);" />
+      </td>
+    </tr>
+  </table>
 </div>
 
 <br/>
