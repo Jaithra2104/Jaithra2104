@@ -110,6 +110,12 @@ I enjoy solving real-world problems through technology and continuously sharpeni
 
 <div align="center">
   <img src="./assets/skills-dashboard.svg" width="840" alt="Tech Stack and Skills Dashboard" />
+  
+  <br/><br/>
+  
+  <a href="https://jaithra2104.github.io/Jaithra2104/interactive-skills/" target="_blank">
+    <img src="https://img.shields.io/badge/%F0%9F%8E%AE%20Play%20with%20Interactive%20Physics%20Sandbox-1E1B4B?style=for-the-badge&logo=matterdotjs&logoColor=22D3EE" alt="Interactive Physics Sandbox" />
+  </a>
 </div>
 
 <br/>

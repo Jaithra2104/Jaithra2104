@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jaithra Addepalli — Interactive Skills Sandbox</title>
+  <!-- Devicon for vector logos -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <!-- Matter.js Physics Engine -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js"></script>
+  
+  <style>
+    :root {
+      --bg-dark: #0b0f19;
+      --panel-bg: #070a13;
+      --border-color: #1e293b;
+      --text-main: #f1f5f9;
+      --text-muted: #64748b;
+      --purple-accent: #a78bfa;
+      --cyan-accent: #22d3ee;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      font-family: 'Outfit', sans-serif;
+      overflow-x: hidden;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-image: 
+        radial-gradient(circle at 10% 20%, rgba(167, 139, 250, 0.05) 0%, transparent 40%),
+        radial-gradient(circle at 90% 80%, rgba(34, 211, 238, 0.05) 0%, transparent 40%);
+    }
+
+    header {
+      text-align: center;
+      margin-top: 40px;
+      margin-bottom: 25px;
+      padding: 0 20px;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, var(--purple-accent), var(--cyan-accent));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 8px;
+      letter-spacing: -0.5px;
+    }
+
+    header p {
+      color: var(--text-muted);
+      font-size: 1rem;
+      font-weight: 400;
+    }
+
+    .instructions {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.85rem;
+      color: var(--cyan-accent);
+      background: rgba(34, 211, 238, 0.03);
+      border: 1px dashed rgba(34, 211, 238, 0.2);
+      padding: 8px 16px;
+      border-radius: 20px;
+      margin-top: 12px;
+      display: inline-block;
+      animation: pulse 2s infinite alternate;
+    }
+
+    @keyframes pulse {
+      0% { opacity: 0.8; box-shadow: 0 0 5px rgba(34, 211, 238, 0.05); }
+      100% { opacity: 1; box-shadow: 0 0 15px rgba(34, 211, 238, 0.15); }
+    }
+
+    .dashboard-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+      width: 100%;
+      max-width: 860px;
+      padding: 0 20px;
+      margin-bottom: 40px;
+    }
+
+    @media (max-width: 768px) {
+      .dashboard-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .terminal-window {
+      background: var(--panel-bg);
+      border: 1.5px solid var(--border-color);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .terminal-header {
+      background: #090d16;
+      border-bottom: 1px solid var(--border-color);
+      padding: 12px 16px;
+      display: flex;
+      align-items: center;
+    }
+
+    .window-dots {
+      display: flex;
+      gap: 6px;
+      margin-right: 15px;
+    }
+
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+    }
+
+    .dot.red { background: #ff5f56; }
+    .dot.yellow { background: #ffbd2e; }
+    .dot.green { background: #27c93f; }
+
+    .window-title {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--text-muted);
+    }
+
+    /* Physics Sandbox Area */
+    .sandbox-container {
+      height: 260px;
+      position: relative;
+      overflow: hidden;
+      background: #04070d;
+      cursor: grab;
+    }
+
+    .sandbox-container:active {
+      cursor: grabbing;
+    }
+
+    /* HTML DOM Element representing the physical skill bubble */
+    .skill-bubble {
+      width: 74px;
+      height: 74px;
+      border-radius: 50%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      transform-origin: center;
+      background: rgba(255, 255, 255, 0.02);
+      border: 1.5px solid rgba(255, 255, 255, 0.08);
+      box-shadow: inset 0 0 12px rgba(255, 255, 255, 0.02), 0 4px 12px rgba(0,0,0,0.4);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      user-select: none;
+      pointer-events: none; /* Let Matter.js handle clicking on the canvas underneath */
+      overflow: hidden;
+    }
+
+    /* Wave liquid filling inside the bubble */
+    .skill-bubble::before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: var(--fill-pct, 0%);
+      background: var(--accent-gradient);
+      opacity: 0.12;
+      z-index: 1;
+      border-top: 1px solid var(--accent-border);
+      transition: height 1s cubic-bezier(0.1, 0.8, 0.3, 1);
+    }
+
+    .bubble-content {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .bubble-content i {
+      font-size: 22px;
+      margin-bottom: 3px;
+      filter: drop-shadow(0 2px 5px rgba(0,0,0,0.3));
+    }
+
+    .bubble-content .name {
+      font-family: 'Outfit', sans-serif;
+      font-size: 9px;
+      font-weight: 700;
+      color: var(--text-main);
+      letter-spacing: 0.2px;
+    }
+
+    .bubble-content .pct {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 8px;
+      font-weight: 700;
+      margin-top: 1px;
+      color: var(--accent-text);
+    }
+
+    /* Navigation button */
+    .btn-back {
+      font-family: 'Outfit', sans-serif;
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--bg-dark);
+      background: var(--purple-accent);
+      border: none;
+      padding: 12px 28px;
+      border-radius: 25px;
+      text-decoration: none;
+      box-shadow: 0 4px 15px rgba(167, 139, 250, 0.25);
+      transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      margin-bottom: 50px;
+      cursor: pointer;
+    }
+
+    .btn-back:hover {
+      background: var(--cyan-accent);
+      color: var(--bg-dark);
+      box-shadow: 0 6px 20px rgba(34, 211, 238, 0.35);
+      transform: translateY(-2px);
+    }
+
+    .btn-back:active {
+      transform: translateY(1px);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Interactive Skills Sandbox</h1>
+    <p>Grab, drag, and fling the skills! Bouncy physical bubbles filled with real competence levels.</p>
+    <div class="instructions">🖱️ click &amp; drag to toss the skills</div>
+  </header>
+
+  <div class="dashboard-grid">
+    <!-- Category 1: Languages -->
+    <div class="terminal-window">
+      <div class="terminal-header">
+        <div class="window-dots">
+          <div class="dot red"></div>
+          <div class="dot yellow"></div>
+          <div class="dot green"></div>
+        </div>
+        <div class="window-title">languages.sh</div>
+      </div>
+      <div id="sandbox-languages" class="sandbox-container"></div>
+    </div>
+
+    <!-- Category 2: Web Dev -->
+    <div class="terminal-window">
+      <div class="terminal-header">
+        <div class="window-dots">
+          <div class="dot red"></div>
+          <div class="dot yellow"></div>
+          <div class="dot green"></div>
+        </div>
+        <div class="window-title">web_dev.sh</div>
+      </div>
+      <div id="sandbox-webdev" class="sandbox-container"></div>
+    </div>
+
+    <!-- Category 3: AI & ML -->
+    <div class="terminal-window">
+      <div class="terminal-header">
+        <div class="window-dots">
+          <div class="dot red"></div>
+          <div class="dot yellow"></div>
+          <div class="dot green"></div>
+        </div>
+        <div class="window-title">ai_ml_data.sh</div>
+      </div>
+      <div id="sandbox-aiml" class="sandbox-container"></div>
+    </div>
+
+    <!-- Category 4: Tools & DBs -->
+    <div class="terminal-window">
+      <div class="terminal-header">
+        <div class="window-dots">
+          <div class="dot red"></div>
+          <div class="dot yellow"></div>
+          <div class="dot green"></div>
+        </div>
+        <div class="window-title">databases_tools.sh</div>
+      </div>
+      <div id="sandbox-tools" class="sandbox-container"></div>
+    </div>
+  </div>
+
+  <a href="https://github.com/Jaithra2104" class="btn-back">← Back to Profile</a>
+
+  <script>
+    const { Engine, World, Bodies, Runner, Mouse, MouseConstraint, Events } = Matter;
+
+    // Skills dataset categorized
+    const datasets = {
+      languages: [
+        { name: 'Python', pct: 90, class: 'devicon-python-plain colored', color: '#a78bfa' },
+        { name: 'Java', pct: 75, class: 'devicon-java-plain colored', color: '#a78bfa' },
+        { name: 'C/C++', pct: 70, class: 'devicon-cplusplus-plain colored', color: '#a78bfa' },
+        { name: 'JavaScript', pct: 75, class: 'devicon-javascript-plain colored', color: '#a78bfa' }
+      ],
+      webdev: [
+        { name: 'React', pct: 80, class: 'devicon-react-original colored', color: '#22d3ee' },
+        { name: 'Flask', pct: 85, class: 'devicon-flask-original colored', color: '#22d3ee' },
+        { name: 'Node.js', pct: 70, class: 'devicon-nodejs-plain colored', color: '#22d3ee' },
+        { name: 'Tailwind', pct: 85, class: 'devicon-tailwindcss-original colored', color: '#22d3ee' }
+      ],
+      aiml: [
+        { name: 'Scikit-Learn', pct: 80, class: 'devicon-scikitlearn-original colored', color: '#a78bfa' },
+        { name: 'Pandas', pct: 85, class: 'devicon-pandas-original colored', color: '#a78bfa' },
+        { name: 'NumPy', pct: 85, class: 'devicon-numpy-original colored', color: '#a78bfa' },
+        { name: 'Power BI', pct: 80, class: 'devicon-html5-plain colored', color: '#a78bfa', customText: 'BI' } // fallback icon style
+      ],
+      tools: [
+        { name: 'MySQL', pct: 80, class: 'devicon-mysql-plain colored', color: '#22d3ee' },
+        { name: 'Firebase', pct: 75, class: 'devicon-firebase-plain colored', color: '#22d3ee' },
+        { name: 'Git', pct: 85, class: 'devicon-git-plain colored', color: '#22d3ee' },
+        { name: 'Postman', pct: 80, class: 'devicon-postman-plain colored', color: '#22d3ee' }
+      ]
+    };
+
+    const BUBBLE_RADIUS = 37; // 74px diameter
+
+    function initSandbox(elementId, items) {
+      const container = document.getElementById(elementId);
+      const width = container.clientWidth;
+      const height = container.clientHeight;
+
+      // 1. Create Engine & Runner
+      const engine = Engine.create({
+        gravity: { y: 0.7 } // comfortable falling gravity
+      });
+      const runner = Runner.create();
+      Runner.run(runner, engine);
+
+      // 2. Create Boundary walls
+      const wallOptions = { isStatic: true, render: { visible: false } };
+      const thickness = 60;
+      
+      const floor = Bodies.rectangle(width / 2, height + thickness / 2, width + 100, thickness, wallOptions);
+      const ceiling = Bodies.rectangle(width / 2, -thickness / 2, width + 100, thickness, wallOptions);
+      const leftWall = Bodies.rectangle(-thickness / 2, height / 2, thickness, height + 100, wallOptions);
+      const rightWall = Bodies.rectangle(width + thickness / 2, height / 2, thickness, height + 100, wallOptions);
+
+      World.add(engine.world, [floor, ceiling, leftWall, rightWall]);
+
+      // 3. Create DOM Elements and corresponding physics bodies
+      const bodies = [];
+
+      items.forEach((item, index) => {
+        // Compute spawn coordinates staggered
+        const x = BUBBLE_RADIUS + 20 + index * 85;
+        const y = 50 + (index % 2) * 50;
+
+        // Create DOM Bubble Element
+        const bubble = document.createElement('div');
+        bubble.className = 'skill-bubble';
+        bubble.style.setProperty('--fill-pct', `${item.pct}%`);
+        bubble.style.setProperty('--accent-gradient', `linear-gradient(to top, ${item.color}cc, ${item.color}22)`);
+        bubble.style.setProperty('--accent-border', item.color);
+        bubble.style.setProperty('--accent-text', item.color);
+
+        // Build internal content
+        const bubbleContent = document.createElement('div');
+        bubbleContent.className = 'bubble-content';
+        
+        let iconHtml = `<i class="${item.class}"></i>`;
+        if (item.customText) {
+          // If powerbi, render custom clean label
+          iconHtml = `<div style="font-weight: 800; font-size: 16px; color: #ffeb3b; height:24px; display:flex; align-items:center;">P</div>`;
+        }
+        
+        bubbleContent.innerHTML = `
+          ${iconHtml}
+          <div class="name">${item.name}</div>
+          <div class="pct">${item.pct}%</div>
+        `;
+        
+        bubble.appendChild(bubbleContent);
+        container.appendChild(bubble);
+
+        // Create Matter.js Circular Body
+        const body = Bodies.circle(x, y, BUBBLE_RADIUS, {
+          restitution: 0.8, // nice bounce
+          friction: 0.05,
+          frictionAir: 0.015,
+          density: 0.001
+        });
+
+        body.element = bubble;
+        bodies.push(body);
+      });
+
+      World.add(engine.world, bodies);
+
+      // 4. Set up Mouse Interactions (clicking / dragging)
+      const mouse = Mouse.create(container);
+      const mouseConstraint = MouseConstraint.create(engine, {
+        mouse: mouse,
+        constraint: {
+          stiffness: 0.2,
+          render: { visible: false }
+        }
+      });
+
+      World.add(engine.world, mouseConstraint);
+
+      // 5. Run loop to update DOM positions based on physical simulation
+      Events.on(engine, 'afterUpdate', () => {
+        bodies.forEach(body => {
+          const el = body.element;
+          if (el) {
+            // center the DOM bubble on the Matter.js body center
+            const x = body.position.x - BUBBLE_RADIUS;
+            const y = body.position.y - BUBBLE_RADIUS;
+            el.style.transform = `translate(${x}px, ${y}px) rotate(${body.angle}rad)`;
+          }
+        });
+      });
+
+      // 6. Handle Resizing of Container
+      window.addEventListener('resize', () => {
+        const newWidth = container.clientWidth;
+        const newHeight = container.clientHeight;
+
+        Matter.Body.setPosition(floor, { x: newWidth / 2, y: newHeight + thickness / 2 });
+        Matter.Body.setPosition(ceiling, { x: newWidth / 2, y: -thickness / 2 });
+        Matter.Body.setPosition(leftWall, { x: -thickness / 2, y: newHeight / 2 });
+        Matter.Body.setPosition(rightWall, { x: newWidth + thickness / 2, y: newHeight / 2 });
+      });
+    }
+
+    // Initialize all 4 containers once content loaded
+    window.addEventListener('DOMContentLoaded', () => {
+      initSandbox('sandbox-languages', datasets.languages);
+      initSandbox('sandbox-webdev', datasets.webdev);
+      initSandbox('sandbox-aiml', datasets.aiml);
+      initSandbox('sandbox-tools', datasets.tools);
+    });
+  </script>
+</body>
+</html>
