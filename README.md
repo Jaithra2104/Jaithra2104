@@ -4,17 +4,17 @@
 
 <br/>
 
-<a href="https://linkedin.com/in/jaithra-addepalli-510292334">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-<a href="https://instagram.com/jaithra_mca_">
-  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-</a>
-<a href="mailto:jaithraaddepalli17@gmail.com">
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-<a href="https://github.com/Jaithra2104">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+<a href="https://jaithraaddepalli.site" target="_blank">
+  <img src="./assets/portfolio-badge.svg" width="170" alt="Portfolio Website" />
+</a>&nbsp;&nbsp;
+<a href="https://linkedin.com/in/jaithra-addepalli-510292334" target="_blank">
+  <img src="./assets/linkedin-badge.svg" width="170" alt="LinkedIn" />
+</a>&nbsp;&nbsp;
+<a href="https://instagram.com/jaithra_mca_" target="_blank">
+  <img src="./assets/instagram-badge.svg" width="170" alt="Instagram" />
+</a>&nbsp;&nbsp;
+<a href="mailto:jaithraaddepalli17@gmail.com" target="_blank">
+  <img src="./assets/email-badge.svg" width="170" alt="Email" />
 </a>
 
 <br/><br/>
@@ -43,6 +43,12 @@
 </td>
 </tr>
 </table>
+
+<br/>
+
+<a href="https://jaithraaddepalli.site" target="_blank">
+  <img src="./assets/portfolio-badge.svg" width="170" alt="Portfolio Website" />
+</a>
 
 </div>
 
@@ -192,6 +198,9 @@ I'm **Jaithra Addepalli**, a Computer Science Engineering student from India. I 
 
 <div align="center">
 
+<a href="https://jaithraaddepalli.site" target="_blank">
+  <img src="./assets/portfolio-badge.svg" width="170" alt="Portfolio Website" />
+</a>&nbsp;&nbsp;
 <a href="https://linkedin.com/in/jaithra-addepalli-510292334" target="_blank">
   <img src="./assets/linkedin-badge.svg" width="170" alt="LinkedIn" />
 </a>&nbsp;&nbsp;
@@ -201,13 +210,6 @@ I'm **Jaithra Addepalli**, a Computer Science Engineering student from India. I 
 <a href="mailto:jaithraaddepalli17@gmail.com" target="_blank">
   <img src="./assets/email-badge.svg" width="170" alt="Email" />
 </a>
-
-<br/><br/>
-
-![Profile Views](https://komarev.com/ghpvc/?username=Jaithra2104&label=Profile%20Views&color=a78bfa&style=flat-square)
-![Followers](https://img.shields.io/github/followers/Jaithra2104?label=Followers&style=flat-square&color=22d3ee&labelColor=111722)
-![Stars](https://img.shields.io/github/stars/Jaithra2104?label=Stars&style=flat-square&color=a78bfa&labelColor=111722)
-![Repos](https://img.shields.io/badge/Repositories-19-22d3ee?style=flat-square&labelColor=111722)
 
 </div>
 
