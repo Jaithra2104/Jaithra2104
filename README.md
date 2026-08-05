@@ -180,25 +180,11 @@ I'm **Jaithra Addepalli**, a Computer Science Engineering student from India. I 
 | 🏗️ **System Design** | Microservices · Caching · Scalability | Studying Architectures |
 
 <br/>
-## 🚀 Open Source Goals
+## 📊 Profile Insights
 
-*   🌟 **Active Collaboration** — *Contribute meaningful pull requests to active open-source projects.*
-*   📦 **Project Maintenance** — *Maintain at least one well-documented personal open-source repository.*
-*   📣 **Build in Public** — *Share development progress and learn alongside the developer community.*
-
-<br/>
-
-## ⚡ Fun Facts
-
-*   🛠️ *I love turning half-finished side projects into fully shipped products.*
-*   🌌 *I'm most productive late at night with a good coding playlist running.*
-*   💡 *I believe clean code is a form of respect for your future self.*
-
-<br/>
-
-## 💬 Developer Quote
-
-> 💡 **"First, solve the problem. Then, write the code."** — *John Johnson*
+<div align="center">
+  <img src="./assets/profile-insights.svg" width="840" alt="Jaithra's Profile Insights Dashboard" />
+</div>
 
 <br/>
 
