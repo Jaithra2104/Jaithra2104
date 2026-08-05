@@ -122,18 +122,24 @@ I enjoy solving real-world problems through technology and continuously sharpeni
 ## GitHub Analytics
 
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Jaithra2104&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="49%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jaithra2104&layout=compact&theme=tokyonight&hide_border=true" width="34%" />
-
-<br/>
-
-<img src="https://streak-stats.demolab.com/?user=Jaithra2104&theme=tokyonight&hide_border=true" width="70%" />
-
-<br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Jaithra2104&theme=tokyo-night&hide_border=true" width="90%" />
-
+  <table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none; background: transparent; margin-bottom: 10px;">
+    <tr style="background: transparent; border: none;">
+      <td align="center" width="55%" style="border: none; background: transparent; padding: 5px;">
+        <img src="https://github-readme-stats.vercel.app/api?username=Jaithra2104&show_icons=true&count_private=true&bg_color=111722&title_color=a78bfa&text_color=94a3b8&icon_color=22d3ee&border_color=30363d&border_radius=10" width="100%" alt="Jaithra's GitHub Stats" />
+      </td>
+      <td align="center" width="45%" style="border: none; background: transparent; padding: 5px;">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jaithra2104&layout=compact&bg_color=111722&title_color=a78bfa&text_color=94a3b8&icon_color=22d3ee&border_color=30363d&border_radius=10" width="100%" alt="Jaithra's Top Languages" />
+      </td>
+    </tr>
+  </table>
+  
+  <br/>
+  
+  <img src="https://streak-stats.demolab.com/?user=Jaithra2104&background=111722&border=30363d&stroke=a78bfa&ring=22d3ee&fire=22d3ee&currStreakNum=f1f5f9&sideNums=94a3b8&sideLabels=94a3b8&dates=a78bfa&border_radius=10" width="100%" alt="Jaithra's GitHub Streak" />
+  
+  <br/><br/>
+  
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Jaithra2104&bg_color=111722&color=a78bfa&line=22d3ee&point=22d3ee&text=94a3b8&hide_border=false&border_color=30363d&border_radius=10" width="100%" alt="Jaithra's Contribution Graph" />
 </div>
 
 <br/>
