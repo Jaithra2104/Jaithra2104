@@ -180,53 +180,53 @@ I'm **Jaithra Addepalli**, a Computer Science Engineering student from India. I 
 | 🏗️ **System Design** | Microservices · Caching · Scalability | Studying Architectures |
 
 <br/>
-## Open Source Goals
+## 🚀 Open Source Goals
 
-- Contribute meaningful pull requests to active open-source projects
-- Maintain at least one well-documented personal open-source repository
-- Build in public and share progress consistently
-
-<br/>
-
-## Fun Facts
-
-- I like turning half-finished side projects into fully shipped products.
-- I'm most productive late at night with a good playlist running.
-- I believe clean code is a form of respect for your future self.
+*   🌟 **Active Collaboration** — *Contribute meaningful pull requests to active open-source projects.*
+*   📦 **Project Maintenance** — *Maintain at least one well-documented personal open-source repository.*
+*   📣 **Build in Public** — *Share development progress and learn alongside the developer community.*
 
 <br/>
 
-## Developer Quote
+## ⚡ Fun Facts
 
-> "First, solve the problem. Then, write the code." — John Johnson
+*   🛠️ *I love turning half-finished side projects into fully shipped products.*
+*   🌌 *I'm most productive late at night with a good coding playlist running.*
+*   💡 *I believe clean code is a form of respect for your future self.*
 
 <br/>
 
-## Connect With Me
+## 💬 Developer Quote
+
+> 💡 **"First, solve the problem. Then, write the code."** — *John Johnson*
+
+<br/>
+
+## 🤝 Connect With Me
 
 <div align="center">
 
 <a href="https://linkedin.com/in/jaithra-addepalli-510292334">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  <img src="https://img.shields.io/badge/LinkedIn-111722?style=for-the-badge&logo=linkedin&logoColor=22D3EE&labelColor=111722" />
 </a>
 <a href="https://instagram.com/jaithra_mca_">
-  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+  <img src="https://img.shields.io/badge/Instagram-111722?style=for-the-badge&logo=instagram&logoColor=A78BFA&labelColor=111722" />
 </a>
 <a href="mailto:jaithraaddepalli17@gmail.com">
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  <img src="https://img.shields.io/badge/Email-111722?style=for-the-badge&logo=gmail&logoColor=22D3EE&labelColor=111722" />
 </a>
 
 <br/><br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=Jaithra2104&label=Profile%20Views&color=6C7DFF&style=flat-square)
-![Followers](https://img.shields.io/github/followers/Jaithra2104?label=Followers&style=flat-square&color=6C7DFF)
-![Stars](https://img.shields.io/github/stars/Jaithra2104?label=Stars&style=flat-square&color=6C7DFF)
-![Repos](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/Jaithra2104&label=Repositories&query=%24.public_repos&color=6C7DFF&style=flat-square)
+![Profile Views](https://komarev.com/ghpvc/?username=Jaithra2104&label=Profile%20Views&color=a78bfa&style=flat-square)
+![Followers](https://img.shields.io/github/followers/Jaithra2104?label=Followers&style=flat-square&color=22d3ee&labelColor=111722)
+![Stars](https://img.shields.io/github/stars/Jaithra2104?label=Stars&style=flat-square&color=a78bfa&labelColor=111722)
+![Repos](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/Jaithra2104&label=Repositories&query=%24.public_repos&color=22d3ee&style=flat-square&labelColor=111722)
 
 </div>
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,50:203A43,100:0F2027&height=150&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:111722,50:a78bfa,100:22d3ee&height=150&section=footer" width="100%"/>
 
 </div>
