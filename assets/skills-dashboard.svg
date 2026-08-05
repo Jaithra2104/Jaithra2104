@@ -1,0 +1,221 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 320" width="840" height="320">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#111722"/>
+      <stop offset="1" stop-color="#0d1322"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Overall Background -->
+  <rect width="840" height="320" rx="12" fill="url(#bgGrad)" stroke="#30363d" stroke-width="1.5" />
+
+  <!-- ================= PANE 1: LANGUAGES (TOP-LEFT) ================= -->
+  <g transform="translate(15, 15)">
+    <!-- Terminal Box -->
+    <rect width="395" height="135" rx="8" fill="#080c14" stroke="#30363d" stroke-width="1" />
+    <!-- Title Bar -->
+    <path d="M 0 8 A 8 8 0 0 1 8 0 L 387 0 A 8 8 0 0 1 395 8 L 395 24 L 0 24 Z" fill="#0d1117" />
+    <circle cx="15" cy="12" r="3.5" fill="#ff5f56" />
+    <circle cx="25" cy="12" r="3.5" fill="#ffbd2e" />
+    <circle cx="35" cy="12" r="3.5" fill="#27c93f" />
+    <text x="50" y="16" font-family="'JetBrains Mono', Consolas, monospace" font-size="11.5" font-weight="bold" fill="#7d8590">languages.sh</text>
+
+    <!-- Skill 1: Python -->
+    <g transform="translate(15, 38)">
+      <text x="0" y="12" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="bold" fill="#f1f5f9">Python</text>
+      <rect x="140" y="3" width="180" height="8" rx="4" fill="#1e293b" />
+      <rect x="140" y="3" width="0" height="8" rx="4" fill="#a78bfa">
+        <animate attributeName="width" from="0" to="162" dur="2s" begin="0.2s" fill="freeze" />
+      </rect>
+      <text x="330" y="12" font-family="'JetBrains Mono', monospace" font-size="10" fill="#a78bfa" font-weight="bold">90%</text>
+    </g>
+
+    <!-- Skill 2: Java -->
+    <g transform="translate(15, 60)">
+      <text x="0" y="12" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="bold" fill="#f1f5f9">Java</text>
+      <rect x="140" y="3" width="180" height="8" rx="4" fill="#1e293b" />
+      <rect x="140" y="3" width="0" height="8" rx="4" fill="#a78bfa">
+        <animate attributeName="width" from="0" to="135" dur="2s" begin="0.4s" fill="freeze" />
+      </rect>
+      <text x="330" y="12" font-family="'JetBrains Mono', monospace" font-size="10" fill="#a78bfa" font-weight="bold">75%</text>
+    </g>
+
+    <!-- Skill 3: C/C++ -->
+    <g transform="translate(15, 82)">
+      <text x="0" y="12" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="bold" fill="#f1f5f9">C/C++</text>
+      <rect x="140" y="3" width="180" height="8" rx="4" fill="#1e293b" />
+      <rect x="140" y="3" width="0" height="8" rx="4" fill="#a78bfa">
+        <animate attributeName="width" from="0" to="126" dur="2s" begin="0.6s" fill="freeze" />
+      </rect>
+      <text x="330" y="12" font-family="'JetBrains Mono', monospace" font-size="10" fill="#a78bfa" font-weight="bold">70%</text>
+    </g>
+
+    <!-- Skill 4: JavaScript -->
+    <g transform="translate(15, 104)">
+      <text x="0" y="12" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="bold" fill="#f1f5f9">JavaScript</text>
+      <rect x="140" y="3" width="180" height="8" rx="4" fill="#1e293b" />
+      <rect x="140" y="3" width="0" height="8" rx="4" fill="#a78bfa">
+        <animate attributeName="width" from="0" to="135" dur="2s" begin="0.8s" fill="freeze" />
+      </rect>
+      <text x="330" y="12" font-family="'JetBrains Mono', monospace" font-size="10" fill="#a78bfa" font-weight="bold">75%</text>
+    </g>
+  </g>
+
+  <!-- ================= PANE 2: WEB DEV (TOP-RIGHT) ================= -->
+  <g transform="translate(430, 15)">
+    <!-- Terminal Box -->
+    <rect width="395" height="135" rx="8" fill="#080c14" stroke="#30363d" stroke-width="1" />
+    <!-- Title Bar -->
+    <path d="M 0 8 A 8 8 0 0 1 8 0 L 387 0 A 8 8 0 0 1 395 8 L 395 24 L 0 24 Z" fill="#0d1117" />
+    <circle cx="15" cy="12" r="3.5" fill="#ff5f56" />
+    <circle cx="25" cy="12" r="3.5" fill="#ffbd2e" />
+    <circle cx="35" cy="12" r="3.5" fill="#27c93f" />
+    <text x="50" y="16" font-family="'JetBrains Mono', Consolas, monospace" font-size="11.5" font-weight="bold" fill="#7d8590">web_dev.sh</text>
+
+    <!-- Skill 1: React -->
+    <g transform="translate(15, 38)">
+      <text x="0" y="12" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="bold" fill="#f1f5f9">React</text>
+      <rect x="140" y="3" width="180" height="8" rx="4" fill="#1e293b" />
+      <rect x="140" y="3" width="0" height="8" rx="4" fill="#22d3ee">
+        <animate attributeName="width" from="0" to="144" dur="2s" begin="0.2s" fill="freeze" />
+      </rect>
+      <text x="330" y="12" font-family="'JetBrains Mono', monospace" font-size="10" fill="#22d3ee" font-weight="bold">80%</text>
+    </g>
+
+    <!-- Skill 2: Flask -->
+    <g transform="translate(15, 60)">
+      <text x="0" y="12" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="bold" fill="#f1f5f9">Flask</text>
+      <rect x="140" y="3" width="180" height="8" rx="4" fill="#1e293b" />
+      <rect x="140" y="3" width="0" height="8" rx="4" fill="#22d3ee">
+        <animate attributeName="width" from="0" to="153" dur="2s" begin="0.4s" fill="freeze" />
+      </rect>
+      <text x="330" y="12" font-family="'JetBrains Mono', monospace" font-size="10" fill="#22d3ee" font-weight="bold">85%</text>
+    </g>
+
+    <!-- Skill 3: Node.js -->
+    <g transform="translate(15, 82)">
+      <text x="0" y="12" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="bold" fill="#f1f5f9">Node.js</text>
+      <rect x="140" y="3" width="180" height="8" rx="4" fill="#1e293b" />
+      <rect x="140" y="3" width="0" height="8" rx="4" fill="#22d3ee">
+        <animate attributeName="width" from="0" to="126" dur="2s" begin="0.6s" fill="freeze" />
+      </rect>
+      <text x="330" y="12" font-family="'JetBrains Mono', monospace" font-size="10" fill="#22d3ee" font-weight="bold">70%</text>
+    </g>
+
+    <!-- Skill 4: Tailwind CSS -->
+    <g transform="translate(15, 104)">
+      <text x="0" y="12" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="bold" fill="#f1f5f9">Tailwind CSS</text>
+      <rect x="140" y="3" width="180" height="8" rx="4" fill="#1e293b" />
+      <rect x="140" y="3" width="0" height="8" rx="4" fill="#22d3ee">
+        <animate attributeName="width" from="0" to="153" dur="2s" begin="0.8s" fill="freeze" />
+      </rect>
+      <text x="330" y="12" font-family="'JetBrains Mono', monospace" font-size="10" fill="#22d3ee" font-weight="bold">85%</text>
+    </g>
+  </g>
+
+  <!-- ================= PANE 3: AI / ML (BOTTOM-LEFT) ================= -->
+  <g transform="translate(15, 170)">
+    <!-- Terminal Box -->
+    <rect width="395" height="135" rx="8" fill="#080c14" stroke="#30363d" stroke-width="1" />
+    <!-- Title Bar -->
+    <path d="M 0 8 A 8 8 0 0 1 8 0 L 387 0 A 8 8 0 0 1 395 8 L 395 24 L 0 24 Z" fill="#0d1117" />
+    <circle cx="15" cy="12" r="3.5" fill="#ff5f56" />
+    <circle cx="25" cy="12" r="3.5" fill="#ffbd2e" />
+    <circle cx="35" cy="12" r="3.5" fill="#27c93f" />
+    <text x="50" y="16" font-family="'JetBrains Mono', Consolas, monospace" font-size="11.5" font-weight="bold" fill="#7d8590">ai_ml_data.sh</text>
+
+    <!-- Skill 1: Scikit-Learn -->
+    <g transform="translate(15, 38)">
+      <text x="0" y="12" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="bold" fill="#f1f5f9">Scikit-Learn</text>
+      <rect x="140" y="3" width="180" height="8" rx="4" fill="#1e293b" />
+      <rect x="140" y="3" width="0" height="8" rx="4" fill="#a78bfa">
+        <animate attributeName="width" from="0" to="144" dur="2s" begin="0.2s" fill="freeze" />
+      </rect>
+      <text x="330" y="12" font-family="'JetBrains Mono', monospace" font-size="10" fill="#a78bfa" font-weight="bold">80%</text>
+    </g>
+
+    <!-- Skill 2: Pandas & NumPy -->
+    <g transform="translate(15, 60)">
+      <text x="0" y="12" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="bold" fill="#f1f5f9">Pandas &amp; NumPy</text>
+      <rect x="140" y="3" width="180" height="8" rx="4" fill="#1e293b" />
+      <rect x="140" y="3" width="0" height="8" rx="4" fill="#a78bfa">
+        <animate attributeName="width" from="0" to="153" dur="2s" begin="0.4s" fill="freeze" />
+      </rect>
+      <text x="330" y="12" font-family="'JetBrains Mono', monospace" font-size="10" fill="#a78bfa" font-weight="bold">85%</text>
+    </g>
+
+    <!-- Skill 3: Machine Learning -->
+    <g transform="translate(15, 82)">
+      <text x="0" y="12" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="bold" fill="#f1f5f9">Machine Learning</text>
+      <rect x="140" y="3" width="180" height="8" rx="4" fill="#1e293b" />
+      <rect x="140" y="3" width="0" height="8" rx="4" fill="#a78bfa">
+        <animate attributeName="width" from="0" to="135" dur="2s" begin="0.6s" fill="freeze" />
+      </rect>
+      <text x="330" y="12" font-family="'JetBrains Mono', monospace" font-size="10" fill="#a78bfa" font-weight="bold">75%</text>
+    </g>
+
+    <!-- Skill 4: Power BI -->
+    <g transform="translate(15, 104)">
+      <text x="0" y="12" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="bold" fill="#f1f5f9">Power BI</text>
+      <rect x="140" y="3" width="180" height="8" rx="4" fill="#1e293b" />
+      <rect x="140" y="3" width="0" height="8" rx="4" fill="#a78bfa">
+        <animate attributeName="width" from="0" to="144" dur="2s" begin="0.8s" fill="freeze" />
+      </rect>
+      <text x="330" y="12" font-family="'JetBrains Mono', monospace" font-size="10" fill="#a78bfa" font-weight="bold">80%</text>
+    </g>
+  </g>
+
+  <!-- ================= PANE 4: DATABASES & TOOLS (BOTTOM-RIGHT) ================= -->
+  <g transform="translate(430, 170)">
+    <!-- Terminal Box -->
+    <rect width="395" height="135" rx="8" fill="#080c14" stroke="#30363d" stroke-width="1" />
+    <!-- Title Bar -->
+    <path d="M 0 8 A 8 8 0 0 1 8 0 L 387 0 A 8 8 0 0 1 395 8 L 395 24 L 0 24 Z" fill="#0d1117" />
+    <circle cx="15" cy="12" r="3.5" fill="#ff5f56" />
+    <circle cx="25" cy="12" r="3.5" fill="#ffbd2e" />
+    <circle cx="35" cy="12" r="3.5" fill="#27c93f" />
+    <g font-family="'JetBrains Mono', Consolas, monospace" font-size="11.5" font-weight="bold" fill="#7d8590">
+      <text x="50" y="16">databases_tools.sh</text>
+    </g>
+
+    <!-- Skill 1: MySQL / Postgres -->
+    <g transform="translate(15, 38)">
+      <text x="0" y="12" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="bold" fill="#f1f5f9">MySQL / Postgres</text>
+      <rect x="140" y="3" width="180" height="8" rx="4" fill="#1e293b" />
+      <rect x="140" y="3" width="0" height="8" rx="4" fill="#22d3ee">
+        <animate attributeName="width" from="0" to="144" dur="2s" begin="0.2s" fill="freeze" />
+      </rect>
+      <text x="330" y="12" font-family="'JetBrains Mono', monospace" font-size="10" fill="#22d3ee" font-weight="bold">80%</text>
+    </g>
+
+    <!-- Skill 2: Firebase / Supabase -->
+    <g transform="translate(15, 60)">
+      <text x="0" y="12" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="bold" fill="#f1f5f9">Firebase / Supabase</text>
+      <rect x="140" y="3" width="180" height="8" rx="4" fill="#1e293b" />
+      <rect x="140" y="3" width="0" height="8" rx="4" fill="#22d3ee">
+        <animate attributeName="width" from="0" to="135" dur="2s" begin="0.4s" fill="freeze" />
+      </rect>
+      <text x="330" y="12" font-family="'JetBrains Mono', monospace" font-size="10" fill="#22d3ee" font-weight="bold">75%</text>
+    </g>
+
+    <!-- Skill 3: Git & GitHub -->
+    <g transform="translate(15, 82)">
+      <text x="0" y="12" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="bold" fill="#f1f5f9">Git &amp; GitHub</text>
+      <rect x="140" y="3" width="180" height="8" rx="4" fill="#1e293b" />
+      <rect x="140" y="3" width="0" height="8" rx="4" fill="#22d3ee">
+        <animate attributeName="width" from="0" to="153" dur="2s" begin="0.6s" fill="freeze" />
+      </rect>
+      <text x="330" y="12" font-family="'JetBrains Mono', monospace" font-size="10" fill="#22d3ee" font-weight="bold">85%</text>
+    </g>
+
+    <!-- Skill 4: Postman / APIs -->
+    <g transform="translate(15, 104)">
+      <text x="0" y="12" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="bold" fill="#f1f5f9">Postman / APIs</text>
+      <rect x="140" y="3" width="180" height="8" rx="4" fill="#1e293b" />
+      <rect x="140" y="3" width="0" height="8" rx="4" fill="#22d3ee">
+        <animate attributeName="width" from="0" to="144" dur="2s" begin="0.8s" fill="freeze" />
+      </rect>
+      <text x="330" y="12" font-family="'JetBrains Mono', monospace" font-size="10" fill="#22d3ee" font-weight="bold">80%</text>
+    </g>
+  </g>
+</svg>

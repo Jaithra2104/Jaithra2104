@@ -108,48 +108,11 @@ I enjoy solving real-world problems through technology and continuously sharpeni
 
 ## Tech Stack
 
-**Programming Languages**
-
-<img src="https://skillicons.dev/icons?i=py,java,c,js" />
-
-**Frontend**
-
-<img src="https://skillicons.dev/icons?i=html,css,react,tailwind" />
-
-**Backend**
-
-<img src="https://skillicons.dev/icons?i=flask,nodejs,express" />
-
-**Databases**
-
-<img src="https://skillicons.dev/icons?i=mysql,postgres,firebase" />
-&nbsp;
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
-
-**Machine Learning**
-
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-
-**Analytics**
-
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-
-**Deployment**
-
-<img src="https://skillicons.dev/icons?i=vercel,netlify" />
-&nbsp;
-![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=white)
-
-**Tools**
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,notion" />
+<div align="center">
+  <img src="./assets/skills-dashboard.svg" width="840" alt="Tech Stack and Skills Dashboard" />
+</div>
 
 <br/>
-
 ## GitHub Analytics
 
 <div align="center">
